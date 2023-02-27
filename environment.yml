@@ -1,0 +1,12 @@
+name: test_env2
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10.8
+  - ipykernel
+  - numpy==1.23
+  - scipy==1.8
+  - matplotlib==3.5
+  - h5py==3.7
+prefix: /home/jovyan/envs/test_env2
